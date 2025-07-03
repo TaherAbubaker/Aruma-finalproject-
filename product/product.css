@@ -1,0 +1,118 @@
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      background-color: #000000;
+      color: white;
+    }
+
+    .product-detail-page {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    .back-link {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.2s;
+    }
+
+    .back-link:hover {
+      color: rgb(212, 30, 173);
+    }
+
+    .product-box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      background: #1a1a1a;
+      border-radius: 12px;
+      padding: 2rem;
+      border: 1.4px solid #d41ead;
+      box-shadow: 0 0 15px rgb(212, 30, 173);
+    }
+
+    .product-image {
+      width: 40%;
+      min-width:200px;
+      object-fit: contain;
+      height: auto;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+    }
+
+    .product-info {
+      flex: 1 1 300px;
+    }
+
+    .product-info h1 {
+      margin-top: 0;
+      font-size: 2rem;
+    }
+
+    .product-info p {
+      margin: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+
+    .product-info .price {
+      color: rgb(212, 30, 173);
+      font-size: 1.4rem;
+      margin: 1rem 0;
+    }
+
+    .stars {
+      margin-bottom: 1rem;
+    }
+
+    button {
+      border: none;
+      margin-top: 2.3px;
+      margin-right: 1rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #000000;
+      color: white;
+      border-radius: 6px;
+      font-size: 1rem;
+      transition: background-color 0.2s ease-in-out;
+      -webkit-transition: background-color 0.2s ease-in-out;
+      -moz-transition: background-color 0.2s ease-in-out;
+      -ms-transition: background-color 0.2s ease-in-out;
+      -o-transition: background-color 0.2s ease-in-out;
+}
+
+    button:hover {
+      background-color: #ffffff;
+      color: black;
+      /*how to change the cart icon when i hover?*/
+    }
+
+    strong {
+      color: rgb(212, 30, 173);
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    @media (max-width: 768px) {
+      .product-box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 260px) {
+      .product-box{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        justify-items: center;
+        justify-self: center;
+      }
+    }
+  

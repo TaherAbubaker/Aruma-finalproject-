@@ -1,0 +1,123 @@
+.formcontainer{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+.righttt{
+    margin-left: 20px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.lefttt{
+    
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.formcontainer img{
+    z-index: -1;
+    position: absolute;
+    width: 20%;
+    height: auto;
+}
+
+.leftform p{
+    margin-bottom:3px;
+}
+
+.loginform{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    border: 1.5px solid rgb(212, 30, 173);
+}
+
+.gmail label ,
+.pass label {
+    color: white;
+    font-size: 20px;
+}
+
+span {
+    color: white;
+    font-size: 14px;
+}
+
+.formcontainer a {
+    color: rgb(212, 30, 173);
+}
+
+.formcontainer a:hover {
+    color: rgb(255, 255, 255);
+}
+
+input:invalid:focus {
+    border: 2px solid rgb(239, 9, 9);
+}
+
+input:valid:focus {
+    border: 2px solid rgb(70, 239, 9);
+}
+
+
+.buttton{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(212, 30, 173);
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.buttton:hover{
+    background-color: rgb(212, 30, 173);
+    
+}
+
+@media (max-width: 800px) {
+    .formcontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .lefttt, .righttt {
+        justify-items: center;
+        width: 100%;
+        max-width: 90%;
+        margin: 0;
+    }
+    
+    .lefttt img {
+        width: 50%;
+        height: auto;
+    }
+    
+    .loginform {
+        margin-top: 20px;
+    }
+}
+

@@ -1,0 +1,191 @@
+
+    body {
+      background-color: #000;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      padding: 0;
+      margin: 0;
+    }
+
+    .about-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    .highlight {
+      color: rgb(212, 30, 173);
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    h1, h2, h3 {
+      color: rgb(212, 30, 173);
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #ddd;
+    }
+
+    .section {
+      margin-bottom: 50px;
+    }
+
+    .contact-info {
+      background-color: #111;
+      padding: 20px;
+      border-radius: 10px;
+      border-left: 4px solid rgb(212, 30, 173);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 10px;
+      color: #aaa;
+      font-size: 0.9rem;
+      border-top: 1px solid #333;
+      margin-top: 50px;
+    }
+
+    a {
+      color: rgb(212, 30, 173);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    li a {
+  text-decoration: none !important;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+@media (max-width: 400px) {
+  .about-container {
+    padding: 20px 15px;
+  }
+
+  .about-container h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .highlight span{
+    font-size: 4rem !important;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  p, li {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .section ul {
+    padding-left: 18px;
+  }
+
+  nav.nav h1 {
+    font-size: 1.5rem;
+  }
+
+  nav.nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav.nav ul li a {
+    font-size: 0.9rem;
+  }
+
+  .icons {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 10px;
+  }
+
+  footer .footer-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .subscribe form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .subscribe input[type="email"],
+  .subscribe button {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .rightt h6, .rightt p {
+    font-size: 0.9rem;
+  }
+
+  .container1 {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .container1 h1 {
+    font-size: 1.3rem;
+  }
+
+  .container1 p {
+    font-size: 1rem;
+  }
+
+  .highlight {
+    font-size: 1.1rem;
+  }
+
+  .offcanvas-title {
+    font-size: 1.2rem;
+  }
+
+  .nav ul {
+    padding-left: 0;
+  }
+
+  .section ul li {
+    font-size: 0.95rem;
+  }
+}
+
+@media(max-width: 367px) {
+
+  .heart{
+    height: 4px;
+    width: 4px;
+    transform: translateY(-12px);
+    -webkit-transform: translateY(-12px);
+    -moz-transform: translateY(-12px);
+    -ms-transform: translateY(-12px);
+    -o-transform: translateY(-12px);
+}
+
+  .hero-left{
+    display: flex;
+    flex-direction: column;
+  }
+}
